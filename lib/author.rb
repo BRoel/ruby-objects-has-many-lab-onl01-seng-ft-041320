@@ -10,7 +10,7 @@ attr_accessor :name
 
   def add_post(post)
     @posts << post
-    post.author = self
+    post.author (self)
     @@post_count += 1
   end
 
